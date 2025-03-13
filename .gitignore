@@ -1,0 +1,18 @@
+# Terraformの状態ファイル
+*.tfstate
+*.tfstate.*
+
+# Terraformのクラッシュログ
+crash.log
+
+# Terraformのバックアップファイル
+*.backup
+
+# Terraformのプラン出力ファイル
+*.tfplan
+
+# .terraformディレクトリ
+.terraform/
+
+# .terraform.lock.hclファイル
+.terraform.lock.hcl
